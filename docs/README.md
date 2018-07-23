@@ -1,7 +1,7 @@
 What is this software?
 ----------------------
 
-This is the MPI Testing Tool (MTT) software package.  It is a
+This is the Middleware Testing Tool (MTT) software package.  It is a
 standalone tool for testing the correctness and performance of
 arbitrary MPI implementations.
 
