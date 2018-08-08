@@ -33,7 +33,6 @@ sudo: required
 dist: trusty
 language: python
 python:
-    - '3.7'
     - '3.6'
     - '3.5'
     - '3.4'
@@ -55,7 +54,6 @@ install:
 script:
   - export TRAVIS_BUILD_DIR=$(pwd)
   - export KERNEL_VERSION=4.4.0-101-generic
-  - echo "hello"
 
   # symlink so BAT w/ hardcoded paths still run
   - mkdir -p /opt/mtt/tests/
